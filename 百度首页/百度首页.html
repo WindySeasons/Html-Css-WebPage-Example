@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>百度一下，你就知道</title>
+        <link rel="shortcut icon" href="source/favicon.ico" type="image/x-ico">
+    <style>
+        #index{
+            position:absolute;
+            right:0;
+            text-align:right;
+        }
+        #head{
+            margin-top:20px;
+        }
+        #nav{
+            margin-left:20px;
+        }
+        #nav a{
+            color:#222222;
+            text-decoration:none;
+            margin-left:10px;
+        }
+        #login{
+            background-color:#4E6EF2;
+            color:#FFFFFF;
+            text-decoration:none;
+            padding:2px 10px;
+            margin-right:20px;
+            border-radius:6px;
+            text-align:center
+        }
+        #conf{
+            margin-right:20px
+        }
+        #image{
+            text-align:center;
+            width:270px;
+            height:129px;
+        }
+        #search{
+            border-style:solid;
+            border-color:#c4c7ce;
+            border-width:2px;
+            border-radius:10px 0 0 10px;
+            width:512px;
+            height:16px;
+            padding:12px 87px 12px 16px
+        }
+        #btn{
+            
+
+        }
+        #inp{
+            border-color:#FFFFFF;
+            width:546px;
+        }
+        #submit{
+            background-color: #4E6EF2;
+            width:108px;
+            height:44px;
+            padding:17px;
+            border-radius:0 10px 10px 0;
+            font-size:17px;
+            font-weight:400;
+            color:white;
+            border:none;
+            outline:0;
+        }
+        #lay{
+            width:100%;
+            position:fixed;
+            font-size:12px;
+            text-align:center;
+            text-decoration:none;
+            bottom:0;
+            left:0;
+            
+        }
+        #lay p{
+            display:inline;
+            color:#bbb;
+            margin-left:20px;
+        }
+        #lay p a{
+            color:#bbb;
+            text-decoration:none;
+        }
+        #lay p a:hover{
+            color:#222222;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="head">
+            <div id="nav" style="display:inline">
+                <a href="http://news.baidu.com"  target=_blank>新闻</a>
+                <a href="https://www.hao123.com"  target=_blank>hao123</a>
+                <a href="http://map.baidu.com"  target=_blank>地图</a>
+                <a href="http://tieba.baidu.com"  target=_blank>贴吧</a>
+                <a href="https://haokan.baidu.com/?sfrom=baidu-top"  target=_blank>视频</a>
+                <a href="http://image.baidu.com/"  target=_blank>图片</a>
+                <a href="https://pan.baidu.com/?from=1026962h"  target=_blank>网盘</a>
+                <a href="#">更多</a>
+            </div>
+            <div id="index" style="display:inline">
+                <span id="conf">设置</span>
+                <a href="#" id=login>登录</a>
+            </div>
+            
+        </div>
+        <div style="text-align:center">
+            <img src="./source/index.png" id="image"/>
+            <div style="margin-top:30px">
+                <span id="search">
+                    <input id="inp">
+                </span>
+                <span id="btn">
+                    <input id="submit" type="submit" value="百度一下">
+                </span>
+            </div>
+        </div>
+
+        <div id="lay">
+            <p><a href="//home.baidu.com" target=_blank>关于百度</a></p>
+            <p><a href="http://ir.baidu.com" target=_blank>About Baidu</a></p>
+            <p><a href="//www.baidu.com/duty" target=_blank>使用百度前必读</a></p>
+            <p><a href="//help.baidu.com" target=_blank>帮助中心</a></p>
+            <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target=_blank>京公网安备11000002000001号</a></p>
+            <p><a href="https://beian.miit.gov.cn" target=_blank>京ICP证030173</a></p>
+            <p>©2022 Baidu </p>
+            <p>互联网药品信息服务资格证书 (京)-经营性-2017-0020</p>
+            <p><a href="//www.baidu.com/licence/" target="_blank">信息网络传播视听节目许可证 0110516</a></p>
+        </div>
+    </body>
+</html>
