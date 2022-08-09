@@ -4,11 +4,7 @@
         "title": "Snipe-IT v5 API",
         "version": "5.4.4"
     },
-    "servers": [
-        {
-            "url": "https://pacteraedge.snipe-it.io/api/v1"
-        }
-    ],
+    "host": "https://pacteraedge.snipe-it.io",
     "components": {
         "securitySchemes": {}
     },
