@@ -5,11 +5,8 @@
         "version": "5.4.4"
     },
     "host": "pacteraedge.snipe-it.io",
-    "basePath":"api/v1",
+    "basePath":"/api/v1",
     "schemes":["https"],
-    "security": [
-        {}
-    ],
     "paths": {
         "/hardware": {
             "post": {
