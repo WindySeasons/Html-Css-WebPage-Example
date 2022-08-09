@@ -1,5 +1,5 @@
 {
-    "openapi": "3.1.0",
+    "swagger": "2.0",
     "info": {
         "title": "Snipe-IT v5 API",
         "version": "5.4.4"
