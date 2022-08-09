@@ -15963,17 +15963,5 @@
                 "deprecated": false
             }
         }
-    },
-    "x-readme": {
-        "headers": [
-            {
-                "key": "Authorization",
-                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZDZjNjI3ZTNjY2U1Y2EyMzMxNjQ3OGNiMWNhNzhlNDMyYTkwNzYwNjRmNjhmMGRmYzdmNjI4M2FjNDE0Yjg0OGJkMjcwYTgzOWQ1YTg1MDEiLCJpYXQiOjE2Mzg0NTI0MzQsIm5iZiI6MTYzODQ1MjQzNCwiZXhwIjoyMjY5NjA0NDM0LCJzdWIiOiIzNTc5Iiwic2NvcGVzIjpbXX0.O4BB5dqWpOPsm1Wg9ZXTXlmPr1R1bE4frY7rg10Q9ToREJQdM4kAo94FM5Jt51n6hrQs89ZhqUo32n9IwSg_x8EMNpAkUvomr04IrbKKpdZvbAuWY4s3lxwexpTYt1gpZA02sgGc_MSPPX6X1X4wwfmqtwdOqL9Ms3otw4A3g39tHOPKgS64ECitT1hv4FhJFjcfO2BdXtBIa1O3Waxr9FnkaMFEmyilVxAriw7J--FOB8qqBon_82TS4-NmCB__13S89Pn4Mctg958bCQ6LCYYHLJa-Gt7l2af_ua6AXQfU-lX7wbO7IhScyx3KTvrVPwhZmXOgTnJHdq_n74xpcjl4koknund2t7Whe3sjTHGX_eeOjvQSiB_kF8FDW1sBhm9oZL8got11_WAXOBAjJB-P_BaJpytZz6P7gcrGXJbnAB9VyLWnmr-fSyw2ytDfmD1tP1rrTUFoN_YIypY4ClodxtO8so9Di3cN5mGpwAJDAYrXxQLqcOBbrx-UyjftFAr0vIH3NK5ELaG2ZZVdWcz3zq37FkpO2dAiTfx3-S5PuUlqSabOOEAe5e0hYbsYESu8eb8ABkmBrL71xOGYcxhuTAvekxruQ4Od1aSNherE29lkwdeA8sW64qxWLxPWYJz5nSrAIq0euFl49z-bumemjbgEUW124cj_hdiC1RA"
-            }
-        ],
-        "explorer-enabled": true,
-        "proxy-enabled": true,
-        "samples-enabled": true
-    },
-    "x-readme-fauxas": true
+    }
 }
