@@ -4,10 +4,9 @@
         "title": "Snipe-IT v5 API",
         "version": "5.4.4"
     },
-    "host": "https://pacteraedge.snipe-it.io/api/v1",
-    "components": {
-        "securitySchemes": {}
-    },
+    "host": "pacteraedge.snipe-it.io",
+    "basePath":"api/v1",
+    "schemes":["https"],
     "security": [
         {}
     ],
