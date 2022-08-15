@@ -8604,7 +8604,7 @@
       },
       "available_actions":{
         "$ref": "#/definitions/AvailableActions"
-      },
+      }
 
     }
     ,
