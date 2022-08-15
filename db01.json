@@ -8559,7 +8559,7 @@
       "note":{
         "type":"string"
       },
-      "order_number"{
+      "order_number":{
         "type":"string"
       },
       "company":{
@@ -8605,7 +8605,7 @@
       "available_actions":{
         "$ref": "#/definitions/AvailableActions"
       }
-
+      }
     }
     ,
     "Hardware401Error1": {
