@@ -307,7 +307,7 @@
           "200": {
             "description": "200",
             "schema": {
-              "default": ""
+              "$ref":"#/definitions/HardwareByID"
             },
             "headers": {}
           },
@@ -8516,6 +8516,98 @@
         }
       }
     },
+    "HardwareByID":{
+      "title":"HardwareByID",
+      "type":"object",
+      
+      "properties":{
+      "id": {
+        "example": 1,
+        "type": "integer",
+        "default": 0,
+        "format": "int32"
+      },
+      "name": {
+        "example": "Macbook Pro 13\"",
+        "type": "string"
+      },
+      "asset_tag": {
+        "example": "4929525240061",
+        "type": "string"
+      },
+      "serial":{
+        "type":"string"
+      },
+      "model":{
+        "$ref":"#/definitions/Model"
+      },
+      "model_number":{
+        "type":"string"
+      },
+      "status_lable":{
+        "$ref": "#/definitions/StatusLabel"
+      },
+      "category":{
+        "$ref": "#/definitions/Category"
+      },
+      "manufacturer":{
+        "$ref": "#/definitions/Manufacturer"
+      },
+      "supplier":{
+        "$ref": "#/definitions/Supplier"
+      },
+      "note":{
+        "type":"string"
+      },
+      "order_number"{
+        "type":"string"
+      },
+      "company":{
+        "$ref":"#/definitions/Company"
+      },
+      "location":{
+        "$ref": "#/definitions/Location"
+      },
+      "rtd_location":{
+        "$ref": "#/definitions/RtdLocation"
+      },
+      "image":{},
+      "assigned_to":{
+        "$ref": "#/definitions/AssignedTo"
+      },
+      "warranty":{},
+      "warranty_expires":{},
+      "created_at":{
+        "$ref": "#/definitions/CreatedAt"
+      },
+      "updated_at":{
+        "$ref": "#/definitions/UpdatedAt"
+      },
+      "purchase_date":{
+        "$ref": "#/definitions/PurchaseDate"
+      },
+      "last_checkout":{
+        "$ref": "#/definitions/LastCheckout"
+      },
+      "expected_checkin":{
+        "$ref": "#/definitions/ExpectedCheckin"
+      },
+      "purchase_cost":{
+        "type": "string"
+      },
+      "user_can_checkout":{
+        "type": "boolean"
+      },
+      "custom_fields":{
+        "type": "array",
+          "items": {}
+      },
+      "available_actions":{
+        "$ref": "#/definitions/AvailableActions"
+      },
+
+    }
+    ,
     "Hardware401Error1": {
       "title": "Hardware401Error1",
       "type": "object",
