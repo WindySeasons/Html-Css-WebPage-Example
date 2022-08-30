@@ -307,7 +307,10 @@
           "200": {
             "description": "200",
             "schema": {
+              "type":"array",
+              "items":{
               "$ref":"#/definitions/HardwareByID"
+              }
             },
             "headers": {}
           },
@@ -8519,7 +8522,7 @@
     "HardwareByID":{
       "title":"HardwareByID",
       "type":"object",
-      
+      "required":["id"],
       "properties":{
       "id": {
         "example": 1,
@@ -8598,10 +8601,7 @@
       "user_can_checkout":{
         "type": "boolean"
       },
-      "custom_fields":{
-        "type": "array",
-          "items": {}
-      },
+      
       "available_actions":{
         "$ref": "#/definitions/AvailableActions"
       }
