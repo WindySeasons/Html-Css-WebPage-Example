@@ -8961,10 +8961,7 @@
           "type": "boolean",
           "default": true
         },
-        "custom_fields": {
-          "type": "array",
-          "items": {}
-        },
+        
         "available_actions": {
           "$ref": "#/definitions/AvailableActions1"
         }
