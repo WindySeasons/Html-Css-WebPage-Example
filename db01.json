@@ -449,7 +449,12 @@
                     "purchase_cost": "689.30",
                     "purchase_date": "1991-09-19",
                     "serial": "f5f06bb3-2420",
-                    "status_label": "Ready to Deploy"
+                    "status_label": "Ready to Deploy",
+                    "_snipeit_cost_center_code_14":"6060000069",
+                    "_snipeit_user_ccc_50":"6060000069",
+                    "_snipeit_employee_id_7":"P0181786",
+                    "_snipeit_employee_name_8":"叶华晨"
+
                   }
                 ]
               }
@@ -8323,6 +8328,18 @@
         "location_id": {
           "type": "integer",
           "format": "int32"
+        },
+        "_snipeit_cost_center_code_14":{
+          "type":"string"
+        },
+        "_snipeit_user_ccc_50":{
+          "type":"string"
+        },
+        "_snipeit_employee_id_7":{
+          "type":"string"
+        },
+        "_snipeit_employee_name_8":{
+          "type":"string"
         }
       },
       "required": [
@@ -9252,6 +9269,18 @@
         "last_audit_date": {
           "type": "string",
           "format": "date"
+        },
+        "_snipeit_cost_center_code_14":{
+          "type":"string"
+        },
+        "_snipeit_user_ccc_50":{
+          "type":"string"
+        },
+        "_snipeit_employee_id_7":{
+          "type":"string"
+        },
+        "_snipeit_employee_name_8":{
+          "type":"string"
         }
       }
     },
